@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fenix&display=swap" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+  </head>
+  <body class="">
+
+    <!-- Main Navbar -->
+      <nav class="navbar navbar-expand-lg fixed-top bg-white py-sm-3">
+        <div class="container-lg">
+          <a class="navbar-brand" href="index4.html">Todd Dunn</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Todd Dunn</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item mx-lg-3">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- End Main Navbar -->
+
+    <!-- Main Hero Container -->
+    <div class="container-lg top">
+      <div class="row align-items-center">
+        <div class="container-lg">
+          <div class="row case-header">
+                <div class="col-12 col-sm-5 offset-lg-2 mt-sm-5">
+                    <h1 class="">PajamaGram.com</h1>
+                    <p class="fs-5">E-Commerce Website Redesign</p>
+                </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+
+    <!-- Recent Work Chapter -->
+    <section class="recent-work">
+      <div class="container-lg">
+
+        <div class="row mb-1 mb-sm-2">
+          <div class="col-6 col-sm-2">
+            <p>2020</p>
+          </div>
+          <div class="col-6 col-sm-7">
+            <p>Creative Lead</p>
+          </div>
+          <div class="d-none d-sm-block col">Business sector, HIDE ON MOBILE</div>
+        </div>
+
+
+
+
+          <!-- PORTFOLIO OVERVIEW -->
+          <!-- <div class="row py-4">
+            <div class="col-12 col-sm-3 offset-sm-3">
+                <h3 class="fs-4">PajamaGram</h3>
+            </div>
+          </div> -->
+          <div class="row">
+            <div class="col-12">
+                <!-- <picture>
+                  <source srcset="/images/pjg-2017/pjg-casestudy-template.jpg" media="(min-width:650px)">
+                  <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                  <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded" loading="lazy">
+                </picture> -->
+
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <picture>
+                        <source srcset="images/pjg-2017/pjg-casestudy-template.jpg" media="(min-width:650px)">
+                        <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                        <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                      </picture> 
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <picture>
+                        <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                        <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                        <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                      </picture> 
+                    </div>
+                    <div class="carousel-item">
+                      <picture>
+                        <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                        <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                        <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                      </picture> 
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+          </div>
+          <div class="p-3 p-sm-5"></div>
+          <div class="col-12 col-sm-5 offset-lg-2">
+              <h2 class="small text-uppercase fw-bolder ls-expanded mb-5">Project Overview</h2>
+              <h3 class="fs-4">Background (not sure if I want to keep this heading)</h3>
+              <p class="mb-5">Stolen from someone's site purely for reference...shameless. The scope of the project was to refresh the existing website, giving it a more contemporary design, increased usability, optimized UX, meeting user expectations while supporting internal business needs (GIVE ME TEH MONEYS) and meeting our user's where they are (mindlessly browsing on their mobile devices). With a mobile-first approach the key focus, the website was re-designed from top to bottom from product cards, navigation, iconography and layout.</p>
+
+              <p>Callouts/highlights</p>
+              <ul>
+                <li>Our first mobile-first design</li>
+                <li>Complete site overhaul: "the website was re-designed from top to bottom from product cards, navigation, iconography and layout"</li>
+                <li>Optimized for ease of use, increased performance</li>
+                <li>Designed in collaboration with our development partners and internal teams</li>
+                <li>The overall design and codebase was built to accommodate 3 separate businesses</li>
+              </ul>
+              <p class="text-uppercase mb-4">Deliverables</p>
+              <ul class="">
+                <li>UI/UX design</li>
+                <li>Low fidelity wireframes</li>
+                <li>High fidelity mockups</li>
+                <li>Prototypes</li>
+                <li>Style guide</li>
+              </ul>
+          </div>
+          <div class="p-3 p-sm-5"></div>
+      </div>
+    </section>
+
+
+
+    <!-- Portfolio Overview Section -->
+    <section class="portfolio">
+        <div class="container-lg">
+              <!-- Portfolio Rows -->
+              <div class="row my-4 my-sm-5">
+                <div class="col-12">
+                    <picture>
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                </div>
+              </div>
+              <!-- Portfolio Item -->
+              <div class="row my-4 my-sm-5">
+                <div class="col-12">
+                    <picture>
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                </div>
+              </div>
+              <div class="row my-4 my-sm-5">
+                <div class="col-12 col-sm-6">
+                    <picture>
+                      <source srcset="https://placehold.co/800x935" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                </div>
+                <div class="col-12 col-sm-6 mt-3 mt-sm-0">
+                    <picture>
+                      <source srcset="https://placehold.co/800x935" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                </div>
+              </div>
+            <!-- Carousel Example -->
+            <div class="row my-4 my-sm-5">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <picture>
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <picture>
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                  </div>
+                  <div class="carousel-item">
+                    <picture>
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                      <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                      <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid rounded">
+                    </picture> 
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-12 col-sm-3">
+                    <h3 class="fs-4">Carousel Example - Keep for reference</h3>
+                </div>
+                <!-- <div class="col-12 col-sm-4">
+                  <p>CD packaging design and photography</p>
+                </div>
+                <div class="col-12 col-sm offset-4">
+                  <p>XXXX - XXXX</p>
+                </div>
+                <div class="p-5"></div> -->
+              </div>
+        </div>
+    </section>
+
+    <section class="footer bg-black mt-5">
+        <div class="container-lg py-5">
+            <div class="row">
+                <div class="p-5"></div>
+                <div class="col-12 col-lg-3 text-white">
+                    <h2 class="h3 fw-bold ls-condensed mb-4">TDc</h2>
+                </div>
+                <div class="col-12 col-sm-7">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="text-white">Navigate</h5>
+                            <ul class="text-white list-unstyled">
+                                <li>Link</li>
+                                <li>Link</li>
+                                <li>Link</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="text-white">Navigate</h5>
+                            <ul class="text-white list-unstyled">
+                                <li>Link</li>
+                                <li>Link</li>
+                                <li>Link</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-5"></div>
+
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
