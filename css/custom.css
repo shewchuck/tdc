@@ -19,8 +19,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-p {
+p, .navbar-brand {
     font-size: .85em;
+}
+a.navbar-brand, a.nav-link {
+    padding: .15em!important;
 }
 
 @media(max-width: 991px){
