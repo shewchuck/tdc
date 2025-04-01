@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body class="vh-100">
+    <div class="container-lg">
+      
+        <nav class="navbar navbar-expand-lg bg-body-light">
+            <div class="container-fluid">
+            <!-- Logo -->   
+              <a class="navbar-brand" href="#">Offcanvas navbar</a>
+              <!-- Toggle Button -->
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Sidebar -->
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <!-- Sidebar Header -->
+                <div class="offcanvas-header border-bottom">
+                  <h5 class="offcanvas-title fs-4" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar body -->
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!-- Main Body Container -->
+    <div class="container-lg home-hero my-5 d-flex align-items-center">
+        <div class="row">
+          <div class="col-12 col-sm-12">
+              <h1 class="mb-5">Hello, it's a pleasure to meet you.</h1>
+              <p class="">I'm Todd, a designer with 20+ years experience designing websites.</p>
+              <!-- <a href="#" class="btn btn-lg btn-outline-dark text-dark">todd@tdc.io</a> -->
+          </div>
+        </div>
+    </div>
+    <!-- Portfolio Overview Section -->
+    <section class="portfolio">
+      <div class="container-lg">
+        <!-- Intro -->
+          <div class="row">
+              <div class="col-12 pb-6">
+                <!-- <img src="https://placehold.co/1728x800" class="img img-fluid" alt=""> -->
+                <picture>
+                  <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                  <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                  <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid">
+                </picture> 
+              </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 col-sm-6">
+              <h2 class="mb-4">CertiK | Core Internal Tool Redesign</h2>
+            </div>
+          </div>
+          <div class="row pb-4">
+            <div class="col-12 col-sm-6">
+              <p>Led the Web 3 Incidents Response Console Tool Redesign Project to Enhance Employee Workflow Optimization</p>
+            </div>
+          </div>
+          
+          <div class="row mt-5">
+              <div class="col-12 col-sm-6 offset-sm-6 pb-6">
+                <h2>Experience</h2>
+              </div>
+              <div class="col-12 col-sm-6 offset-sm-6 my-sm-5">
+                <h2>Hello, world!</h2>
+                  <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                  <a href="portfolio-template.html" class="btn btn-lg btn-outline-dark text-dark">todd@tdc.io</a>
+              </div>
+          </div>
+
+          <div class="row mt-5">
+              <div class="col-12 pb-6">
+                <picture>
+                  <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                  <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                  <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid">
+                </picture> 
+              </div>
+              <div class="row mt-5">
+                <div class="col-12 col-sm-6">
+                  <h2 class="mb-4">CertiK | Core Internal Tool Redesign</h2>
+                </div>
+              </div>
+              <div class="row pb-4">
+                <div class="col-12 col-sm-6">
+                  <p>Led the Web 3 Incidents Response Console Tool Redesign Project to Enhance Employee Workflow Optimization</p>
+                </div>
+              </div>
+          </div>
+          <!-- Carousel Example -->
+          <div class="row mt-5">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <picture>
+                    <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                    <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                    <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid">
+                  </picture> 
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <picture>
+                    <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                    <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                    <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid">
+                  </picture> 
+                </div>
+                <div class="carousel-item">
+                  <picture>
+                    <source srcset="https://placehold.co/1728x800" media="(min-width:650px)">
+                    <source srcset="https://placehold.co/1728x800" media="(min-width:465px)">
+                    <img src="https://placehold.co/732x1000" alt="ALTTEXT" class="img-fluid">
+                  </picture> 
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12 col-sm-6 offset-sm-6 pb-6">
+              <h2>Experience</h2>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-6 my-sm-5">
+              <h2>Hello, world!</h2>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                <a href="portfolio-template.html" class="btn btn-lg btn-outline-dark text-dark">todd@tdc.io</a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio-footer bg-dark mt-5">
+      <div class="container py-5">
+
+        <div class="row mb-4 my-5">
+          <div class="col-12 col-sm-4 text-white sticky">
+            Experience
+          </div>
+          <div class="col-12 col-sm text-white">
+            <h3 class="h5 text-white">Job Company</h3>
+            <h4>Title</h4>
+            <p class="mb-5">XXXX - XXXX</p>
+            <h3 class="h5 text-white">Job Company</h3>
+            <h4>Title</h4>
+            <p class="mb-5">XXXX - XXXX</p>
+            <h3 class="h5 text-white">Job Company</h3>
+            <h4>Title</h4>
+            <p class="mb-5">XXXX - XXXX</p>
+            <h3 class="h5 text-white">Job Company</h3>
+            <h4>Title</h4>
+            <p class="mb-5">XXXX - XXXX</p>
+            <h3 class="h5 text-white">Job Company</h3>
+            <h4>Title</h4>
+            <p class="mb-5">XXXX - XXXX</p>
+            <h3 class="h5 text-white">Job Company</h3>
+            <h4>Title</h4>
+            <p class="mb-5">XXXX - XXXX</p>
+          </div>
+        </div>
+        
+
+
+
+
+
+
+        <!-- <div class="row">
+          <div class="col-12 col-sm-6">
+            <h3 class="h5 fw-normal text-white">Portfolio Footer Section</h3>
+            <dl class="text-white small mt-4">
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+            </dl>
+          </div>
+          <div class="col-12 col-sm-6">
+            <h3 class="h5 fw-normal text-white">Portfolio Footer Section</h3>
+            <dl class="text-white small mt-4">
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+              <dt>Job Title</dt>
+              <dd>Start and End Dates</dd>
+            </dl>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
