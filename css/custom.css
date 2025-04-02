@@ -10,11 +10,11 @@ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 body {
-    /* background-image: url(https://assets-global.website-files.com/63498a931067812a68374506/6599e1af9917def056ba4d7e_Primary%4050.png);
+    /* background-image: url(/images/background-white.png);
     background-position: 0,0;
     background-size: contain;
-    background-attachment: fixed;
-    overflow: visible; */
+    background-attachment: fixed; */
+    overflow: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
