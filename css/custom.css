@@ -1,7 +1,5 @@
 
 
-
-
 html {
     scroll-behavior: smooth;
   }
@@ -65,7 +63,7 @@ a.navbar-brand, a.nav-link {
     font-style: normal;
 }
 .heading-small {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: .85em;
 }
 
