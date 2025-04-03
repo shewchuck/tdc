@@ -17,7 +17,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-p, .navbar-brand {
+p, ul, .navbar-brand {
     font-size: .85em;
 }
 a.navbar-brand, a.nav-link {
@@ -119,9 +119,9 @@ section.footer {
     .nav-link {
         position: relative;
     }
-    .navbar-brand, a.nav-link {
+    /* .navbar-brand, a.nav-link {
         font-size: .85em;
-    }
+    } */
     .nav-link::before {
         content: "";
         position: absolute;
