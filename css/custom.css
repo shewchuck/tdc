@@ -16,8 +16,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.navbar-brand {
+    font-size: .85em;
+}
 
-p, ul, .navbar-brand {
+p, ul {
     font-size: .85em;
 }
 a.navbar-brand, a.nav-link {
