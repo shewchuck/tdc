@@ -95,8 +95,7 @@ a.navbar-brand, a.nav-link {
 }
 section.footer {
     height: 60vh;
-    padding-top: 3.75rem;
-    padding-bottom: 2.5rem;
+    
 }
 
 @media (max-width: 576px) {
