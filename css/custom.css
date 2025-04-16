@@ -35,6 +35,19 @@ a.navbar-brand, a.nav-link {
     }
 }
 
+ul.home-list--methodology {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+}
+ul.home-list--methodology li {
+    display: inline-block;
+    background: white;
+    padding: .5rem;
+    margin: .5rem 0;
+    border-radius: 6px;
+}
+
 
 .bg-off-white {
     background-color: rgb(245, 244, 238);
