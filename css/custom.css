@@ -106,9 +106,13 @@ ul.home-list--methodology li {
     margin-top: 5rem;
     margin-bottom: 6.25rem;
 }
+.section-spacing {
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+}
 section.footer {
     height: 100vh;
-    
+
 }
 
 @media (max-width: 576px) {
