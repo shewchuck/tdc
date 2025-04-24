@@ -124,6 +124,12 @@ section.footer {
 }
 
 @media (max-width: 576px) {
+    p, ul {
+        font-size: 1em;
+    }
+    .offcanvas {
+        --bs-offcanvas-width: 100%;
+    }
     .home-hero {
         height: 55vh;
         margin-top: 3rem;
