@@ -22,10 +22,13 @@ body {
 }
 
 p, ul {
-    font-size: .92em;
+    font-size: .9em;
     line-height: 1.7;
     letter-spacing: -.01em;
 }
+ul ul {
+    font-size:1em;
+  }
 a.navbar-brand, a.nav-link {
     padding: .15em!important;
 }
