@@ -23,6 +23,7 @@ body {
 p, ul {
     font-size: .9em;
     line-height: 1.7;
+    letter-spacing: -.02em;
 }
 a.navbar-brand, a.nav-link {
     padding: .15em!important;
