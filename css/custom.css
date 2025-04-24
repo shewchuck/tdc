@@ -83,6 +83,7 @@ ul.home-list--methodology li {
     font-family: "Cormorant", serif;
     font-weight: 500;
     font-style: normal;
+    letter-spacing: -.02em;
 }
 
 .heading-small {
