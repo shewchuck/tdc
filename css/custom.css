@@ -136,6 +136,9 @@ section.footer {
         height: 55vh;
         margin-top: 3rem;
     }
+    a.nav-link {
+        font-size: 1.25em;
+    }
 
     .case-header {
         margin: 4rem 0;
