@@ -8,10 +8,6 @@ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 body {
-    /* background-image: url(/images/background-white.png);
-    background-position: 0,0;
-    background-size: contain;
-    background-attachment: fixed; */
     overflow: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,17 +24,17 @@ p, ul, dt, dd {
 }
 ul ul {
     font-size:1em;
-  }
+}
 a.navbar-brand, a.nav-link {
     padding: .15em!important;
 }
 
-@media(max-width: 991px){
+/* @media(max-width: 991px){
     .sidebar {
         background-color: rgba(0, 0, 0, 0.315);
         backdrop-filter: blur(10px);
     }
-}
+} */
 
 ul.home-list--methodology {
     display: inline-block;
@@ -62,6 +58,12 @@ ul.home-list--methodology li {
 }
 .container-lg {
     max-width: 1600px;
+}
+.container-xxl {
+    max-width: 1920px
+}
+.container-xlg img.fluid-xl {
+    max-width: 1920px
 }
 
 .container-lg.top {
