@@ -80,10 +80,10 @@ ul.home-list--methodology li {
   }
 
 .heading-callout {
-    font-family: "Cormorant", serif;
-    font-weight: 500;
+    /* font-family: "Cormorant", serif; */
+    font-weight: 300;
     font-style: normal;
-    letter-spacing: -.02em;
+    /* letter-spacing: -.02em; */
 }
 
 .heading-small {
