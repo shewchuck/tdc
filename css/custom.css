@@ -18,7 +18,7 @@ body {
 }
 
 p, ul, dt, dd {
-    font-size: .91em;
+    font-size: .9em;
     line-height: 1.8;
     letter-spacing: -.01em;
 }
@@ -137,7 +137,7 @@ section.footer {
         height: 55vh;
         margin-top: 3rem;
     }
-    a.nav-link {
+    a.nav-link, span#copy-text-top {
         font-size: 1.25em;
     }
 

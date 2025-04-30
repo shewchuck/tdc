@@ -12,16 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   </head>
   <body>
+
 <!-- Main Navbar -->
 <nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" style="">
   <div class="container-lg">
-
     <div class="col-6">
       <a class="navbar-brand fw-semibold text-dark " href="index.html">⚉ Todd Dunn</a>
       <span class="small d-block d-md-inline-block">-- Senior UI Designer</span>
     </div>
     <div class="col text-end">
-
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +28,6 @@
           <div class="offcanvas-header justify-content-end">
             <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br />
               <span class="small d-block d-md-inline-block">-- Senior UI Designer</span></h5> -->
-
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
         <div class="offcanvas-body">
@@ -43,11 +41,16 @@
                 </li>
               </ul>
             </div>
-
           <div class="col-10 ms-auto ms-lg-2 col-md">
             <ul class="navbar-nav justify-content-end flex-grow-1 mt-4 mt-lg-0 text-start">
-                <li class="nav-item">
-                  <a class="nav-link fw-semibold text-dark" href="#">Contact</a>
+                <li class="nav-item d-flex align-items-baseline">
+                  <!-- <a class="nav-link fw-semibold text-dark" href="#">Contact</a> -->
+                  <span id="copy-text-top" class="fw-semibold text-dark me-2">toddunn@gmail.com</span>
+                  <button id="copy-text-btn-top" class="btn btn-sm text-dark focus-ring" title="Click to copy email address" style="--bs-focus-ring-color: rgba(var(--bs-white-rgb), .5);">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"/>
+                  </svg></button>
+                  <span class="visually-hidden">Copy to clipboard</span>
                 </li>
             </ul>
           </div>
@@ -368,7 +371,6 @@
               </svg></button>
               <span class="visually-hidden">Copy to clipboard</span>
               </li>
-
           </ul>
         </div>
         <div class="col-12 col-sm-3">
@@ -379,9 +381,6 @@
                   <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803q.43 0 .732-.173.305-.175.463-.474a1.4 1.4 0 0 0 .161-.677q0-.375-.158-.677a1.2 1.2 0 0 0-.46-.477q-.3-.18-.732-.179m.545 1.333a.8.8 0 0 1-.085.38.57.57 0 0 1-.238.241.8.8 0 0 1-.375.082H.788V12.48h.66q.327 0 .512.181.185.183.185.522m1.217-1.333v3.999h1.46q.602 0 .998-.237a1.45 1.45 0 0 0 .595-.689q.196-.45.196-1.084 0-.63-.196-1.075a1.43 1.43 0 0 0-.589-.68q-.396-.234-1.005-.234zm.791.645h.563q.371 0 .609.152a.9.9 0 0 1 .354.454q.118.302.118.753a2.3 2.3 0 0 1-.068.592 1.1 1.1 0 0 1-.196.422.8.8 0 0 1-.334.252 1.3 1.3 0 0 1-.483.082h-.563zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638z"/>
                 </svg>
               </a>
-              
-              
-              
               <!-- <a href="" class="text-white link-offset-2" title="Click to view my resume (Adobe PDF file format)">Resume (PDF)</a> -->
             </li>
             <li><a href="https://www.linkedin.com/in/todd-dunn/" class="link-light link-offset-2" title="External link: click to view my LinkedIn profile">LinkedIn</a></li>
@@ -409,6 +408,9 @@
   </div>
 
   <script src="js/copy-text.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
