@@ -15,10 +15,10 @@
 
 <body>
 <!-- Main Navbar -->
-<nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" style="">
+<nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" id="navbar" aria-label="Main navigation">
   <div class="container-lg">
     <div class="col-6">
-      <a class="navbar-brand fw-semibold text-dark " href="index.html">⚉ Todd Dunn</a>
+      <a class="navbar-brand fw-semibold text-dark " href="index.html" id="offcanvasNavbarLabel">⚉ Todd Dunn</a>
       <span class="small d-block d-md-inline-block">-- Senior UI Designer</span>
     </div>
     <div class="col text-end">
@@ -27,7 +27,7 @@
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header justify-content-end">
-            <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br />
+            <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br>
               <span class="small d-block d-md-inline-block">-- Senior UI Designer</span></h5> -->
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -64,7 +64,7 @@
 <!-- End Main Navbar -->
 
 
-  <!-- Header Container -->
+<!-- Header Container -->
   <div class="container-lg top">
     <div class="row align-items-center">
       <div class="container-lg case-header">
@@ -109,41 +109,38 @@
   </div>
 
   <!-- Recent Work Chapter -->
-  <section class="recent-work">
+  <div class="recent-work">
     <div class="container-lg">
       <div class="row">
         <div class="col-12">
           <picture>
             <source srcset="images/vtb-2020/vtb2020-home-hero-desktop.jpg" media="(min-width:650px)">
             <!-- <source srcset="https://placehold.co/1728x800" media="(min-width:465px)"> -->
-            <img src="images/vtb-2020/vtb2020-home-hero-mobile.jpg" alt="ALTTEXT" class="img-fluid">
+            <img src="images/vtb-2020/vtb2020-home-hero-mobile.jpg" alt="" class="img-fluid">
           </picture>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-sm-6 case-header ms-auto">
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">The Scenario:</h3>
-          <p>Imagine that you’re the CEO of a well-established brand with over 20 years of delivering high-quality products and excellent customer service. </p>
+          <p>Imagine that you're the CEO of a well-established brand with over 20 years of delivering high-quality products and excellent customer service. </p>
           <p>It's late 2019, and things look good — projections are strong, and business feels steady. Then your in-house UI designer presents critical findings: Despite the platform serving your business needs, it's falling short for your customers. User data reveals a troubling trend — mobile usability issues, buried products, clunky promotional workflows, and an outdated platform on the verge of end-of-life.</p>
-          <p>Staying the course could risk not only lost sales but also long-term brand damage. A website migration becomes not just a good idea — it’s essential to normalize your shopping experience. So, you decide to act fast and tell your team to get to work.</p>
+          <p>Staying the course could risk not only lost sales but also long-term brand damage. A website migration becomes not just a good idea — it's essential to normalize your shopping experience. So, you decide to act fast and tell your team to get to work.</p>
         </div>
       </div>
 
     </div>
-  </section>
-
-
+  </div>
 
   <!-- Portfolio Overview Section -->
-  <section class="portfolio">
+  <div class="portfolio">
     <div class="container-lg">
       <!-- Portfolio Rows -->
       <div class="row my-4 my-sm-5">
         <div class="col-12">
           <picture>
             <source srcset="images/vtb-2020/vtb2020-image1-desktop.jpg" media="(min-width:650px)">
-            <!-- <source srcset="https://placehold.co/1728x800" media="(min-width:465px)"> -->
-            <img src="images/vtb-2020/vtb2020-image1-mobile.gif" alt="ALTTEXT" class="img-fluid">
+            <img src="images/vtb-2020/vtb2020-image1-mobile.gif" alt="" class="img-fluid">
           </picture>
         </div>
         <div class="col-12 col-sm-6 case-header ms-auto">
@@ -164,15 +161,14 @@
         <div class="col-12">
           <picture>
             <source srcset="images/vtb-2020/vtb2020-image2-desktop.jpg" media="(min-width:650px)">
-            <!-- <source srcset="https://placehold.co/1728x800" media="(min-width:465px)"> -->
-            <img src="images/vtb-2020/vtb2020-image2-mobile.gif" alt="ALTTEXT" class="img-fluid">
+            <img src="images/vtb-2020/vtb2020-image2-mobile.gif" alt="" class="img-fluid">
           </picture>
         </div>
       </div>
 
       <div class="row">
         <div class="col-12 col-sm-6 case-header ms-auto">
-          <h2 class="h3 heading-callout callout-half mb-5">A Brand Is More Than Its Products — It’s the Experience</h2>
+          <h2 class="h3 heading-callout callout-half mb-5">A Brand Is More Than Its Products — It's the Experience</h2>
 
           <h4 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Initial Research:</h4>
           <p>In early 2019, Todd led a comprehensive review of user behavior on the site, which was hosted on Magento 1.0.</p>
@@ -217,28 +213,27 @@
         </div>
       </div>
 
-
       <!-- Portfolio Item -->
       <div class="row gy-4">
         <div class="col-12 col-md-6">
           <div class="row gy-4">
-            <div class="col-12"><img src="images/vtb-2020/vtb2020-artifact-2col-image1.jpg" alt="ALTTEXT" class="img-fluid"></div>
-            <div class="col-12"><img src="images/vtb-2020/vtb2020-artifact-2col-image2.jpg" alt="ALTTEXT" class="img-fluid"></div>
+            <div class="col-12"><img src="images/vtb-2020/vtb2020-artifact-2col-image1.jpg" alt="" class="img-fluid"></div>
+            <div class="col-12"><img src="images/vtb-2020/vtb2020-artifact-2col-image2.jpg" alt="" class="img-fluid"></div>
           </div>
         </div>
         <div class="col-12 col-md-6">
-          <img src="images/vtb-2020/vtb2020-artifact-2col-image3.gif" alt="ALTTEXT" class="img-fluid" style="height: auto; overflow: hidden;">
+          <img src="images/vtb-2020/vtb2020-artifact-2col-image3.gif" alt="" class="img-fluid" style="height: auto; overflow: hidden;">
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-sm-6 case-header ms-auto">
 
           <h4 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Conceptualization: </h4>
-          <p>After analyzing the competition and evaluating potential platforms, the team selected <strong>Salesforce Commerce Cloud</strong>. The platform’s success team contributed valuable insights, helping reshape the UX from the ground up.</p>
+          <p>After analyzing the competition and evaluating potential platforms, the team selected <strong>Salesforce Commerce Cloud</strong>. The platform's success team contributed valuable insights, helping reshape the UX from the ground up.</p>
 
           <p class="fw-bold">Top Redesign Priorities:</p>
           <ul>
-              <li>Preserve loyalty by maintaining the brand’s tone and visual language</li>
+              <li>Preserve loyalty by maintaining the brand's tone and visual language</li>
               <li>Prioritize customer needs across mobile and desktop</li>
           </ul>
 
@@ -252,8 +247,7 @@
               <li>Gift Customization Flow</li>
               <li>Cart & Checkout</li>
           </ul>
-        
-          </div>
+        </div>
       </div>
           <!-- Portfolio Rows -->
 
@@ -261,12 +255,10 @@
             <div class="col-12">
               <picture>
                 <source srcset="images/vtb-2020/vtb2020-image3-desktop.jpg" media="(min-width:650px)">
-                <!-- <source srcset="https://placehold.co/1728x800" media="(min-width:465px)"> -->
-                <img src="images/vtb-2020/vtb2020-image3-mobile.gif" alt="ALTTEXT" class="img-fluid">
+                <img src="images/vtb-2020/vtb2020-image3-mobile.gif" alt="" class="img-fluid">
               </picture>
             </div>
           </div>
-
 
           <div class="row">
             <div class="col-12 col-sm-6 case-header ms-auto">
@@ -307,7 +299,7 @@
           </div>
 
           <h3 class="h5 mt-5 pb-2">Final Outcome:</h3>
-          <p class="fs-6 callout-half">The redesigned site delivered a cleaner, faster, and more intuitive shopping experience. It modernized Vermont Teddy Bear’s digital presence and laid a strong foundation for continued growth in a mobile-first eCommerce landscape.</p>
+          <p class="fs-6 callout-half">The redesigned site delivered a cleaner, faster, and more intuitive shopping experience. It modernized Vermont Teddy Bear's digital presence and laid a strong foundation for continued growth in a mobile-first eCommerce landscape.</p>
           
 
         </div>
@@ -324,10 +316,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Footer Container -->
-  <section class="footer text-white d-flex align-items-center position-relative">
+  <div class="footer text-white d-flex align-items-center position-relative">
     <div class="container-lg">
       <div class="row gy-5">
         <div class="col-12 col-sm-6">
@@ -364,7 +356,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
   
   <div class="toast-container text-bg-white position-fixed bottom-0 start-50 translate-middle-x mb-3">
     <div class="toast"  role="alert" aria-live="polite" aria-atomic="true">

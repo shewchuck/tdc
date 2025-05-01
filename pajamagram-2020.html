@@ -15,10 +15,10 @@
 
 <body>
 <!-- Main Navbar -->
-<nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" style="">
+<nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" id="navbar" aria-label="Main navigation">
   <div class="container-lg">
     <div class="col-6">
-      <a class="navbar-brand fw-semibold text-dark " href="index.html">⚉ Todd Dunn</a>
+      <a class="navbar-brand fw-semibold text-dark " href="index.html" id="offcanvasNavbarLabel">⚉ Todd Dunn</a>
       <span class="small d-block d-md-inline-block">-- Senior UI Designer</span>
     </div>
     <div class="col text-end">
@@ -27,7 +27,7 @@
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header justify-content-end">
-            <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br />
+            <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br>
               <span class="small d-block d-md-inline-block">-- Senior UI Designer</span></h5> -->
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -109,7 +109,7 @@
   </div>
 
   <!-- Recent Work Chapter -->
-  <section class="recent-work">
+  <div class="recent-work">
     <div class="container-lg">
       <div class="row">
         <div class="col-12">
@@ -123,19 +123,19 @@
       <div class="row">
         <div class="col-12 col-sm-6 case-header ms-auto">
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">The Scenario</h3>
-          <p>You’re the CEO of a rapidly growing, multi-million-dollar eCommerce brand. It’s late 2019, and your numbers are booming. Next year’s forecast looks stronger than ever — you're ready to celebrate. Then, an unexpected email lands in your inbox from your in-house UI designer. It contains a sobering analysis of your website's performance. </p>
-          <p>Despite strong business results, the platform powering your online store is falling behind. It’s burdened by slow in-cart times, poor accessibility, outdated tech, and a lack of mobile-first design — all crucial to staying competitive in modern eCommerce. Add to that a looming platform end-of-life, and the message becomes clear: now is the time for change.</p>
+          <p>You're the CEO of a rapidly growing, multi-million-dollar eCommerce brand. It's late 2019, and your numbers are booming. Next year's forecast looks stronger than ever — you're ready to celebrate. Then, an unexpected email lands in your inbox from your in-house UI designer. It contains a sobering analysis of your website's performance. </p>
+          <p>Despite strong business results, the platform powering your online store is falling behind. It's burdened by slow in-cart times, poor accessibility, outdated tech, and a lack of mobile-first design — all crucial to staying competitive in modern eCommerce. Add to that a looming platform end-of-life, and the message becomes clear: now is the time for change.</p>
           <p>To maintain momentum and deliver the user experience your customers expect, you give the green light to migrate your website to a more modern, flexible, and user-centric platform.</p>
         </div>
       </div>
 
     </div>
-  </section>
+  </div>
 
 
 
   <!-- Portfolio Overview Section -->
-  <section class="portfolio">
+  <div class="portfolio">
     <div class="container-lg">
       <!-- Portfolio Rows -->
       <div class="row my-4 my-sm-5">
@@ -148,7 +148,7 @@
         </div>
         <div class="col-12 col-sm-6 case-header ms-auto">
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">The Brand</h3>
-          <p><strong>Pajamagram</strong><br />
+          <p><strong>Pajamagram</strong><br>
             A seasonal powerhouse in pajamas and loungewear, Pajamagram thrives during the holidays, with customers shopping for matching family sets and personalized gifts for loved ones.</p>
 
 
@@ -178,7 +178,7 @@
 
           <p class="fw-bold">Competitive Analysis:</p>
           <ul>
-              <li>What features were competitors offering that Pajamagram wasn’t?</li>
+              <li>What features were competitors offering that Pajamagram wasn't?</li>
               <li>How were others driving repeat visits and loyalty</li>
           </ul>
 
@@ -194,11 +194,11 @@
           
           <p class="fw-bold">Key Insights & Pain Points:</p>
           <ul>
-            <li><strong>Mobile-first experience was lacking</strong>: With mobile traffic growing, Magento 1.0 couldn’t deliver a smooth mobile journey.</li>
+            <li><strong>Mobile-first experience was lacking</strong>: With mobile traffic growing, Magento 1.0 couldn't deliver a smooth mobile journey.</li>
             <li><strong>Homepage constraints</strong>: Rigid templates limited product visibility and blocked new promotional strategies.</li>
             <li><strong>Inflexible UX</strong>: Campaigns were hard to launch; upsells and personalization were buried.</li>
             <li><strong>Checkout complexity</strong>: Multiple steps led to a high cart abandonment rate.</li>
-            <li><strong>User testing confirmed it all</strong>: Hotjar recordings and A/B tests showed increasing frustration — traffic was rising, but users weren’t converting.</li>
+            <li><strong>User testing confirmed it all</strong>: Hotjar recordings and A/B tests showed increasing frustration — traffic was rising, but users weren't converting.</li>
           </ul>
 
           <h4 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Proposing The Project:</h4>
@@ -233,7 +233,7 @@
         <div class="col-12 col-sm-6 case-header ms-auto">
 
           <h4 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Conceptualization & Redesign: </h4>
-          <p>Guided by platform feedback, user data, and input from Salesforce’s CS Success director, Todd and the team reimagined Pajamagram’s user experience from the ground up.</p>
+          <p>Guided by platform feedback, user data, and input from Salesforce's CS Success director, Todd and the team reimagined Pajamagram's user experience from the ground up.</p>
 
           <p class="fw-bold">Touchpoints Redesigned:</p>
           <ul>
@@ -309,7 +309,7 @@
 
           <h3 class="h5 mt-5 pb-2">The Result:</h3>
           <p class="fs-6 callout-half">By Putting Users First — and Business Second — Pajamagram Improved Revenue, Conversion, and Long-Term Brand Loyalty</p>
-          <p>The migration wasn’t just a platform shift — it was a user-centered transformation that empowered the business to compete more effectively, adapt more quickly, and convert more consistently.</p>
+          <p>The migration wasn't just a platform shift — it was a user-centered transformation that empowered the business to compete more effectively, adapt more quickly, and convert more consistently.</p>
 
         </div>
       </div>
@@ -325,10 +325,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Footer Container -->
-  <section class="footer text-white d-flex align-items-center position-relative">
+  <div class="footer text-white d-flex align-items-center position-relative">
     <div class="container-lg">
       <div class="row gy-5">
         <div class="col-12 col-sm-6">
@@ -365,7 +365,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
   
   <div class="toast-container text-bg-white position-fixed bottom-0 start-50 translate-middle-x mb-3">
     <div class="toast"  role="alert" aria-live="polite" aria-atomic="true">

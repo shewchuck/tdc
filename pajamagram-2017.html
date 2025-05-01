@@ -15,10 +15,10 @@
 
 <body>
 <!-- Main Navbar -->
-<nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" style="">
+<nav class="navbar navbar-expand-lg py-sm-3 bg-white fixed-top border-bottom" id="navbar" aria-label="Main navigation">
   <div class="container-lg">
     <div class="col-6">
-      <a class="navbar-brand fw-semibold text-dark " href="index.html">⚉ Todd Dunn</a>
+      <a class="navbar-brand fw-semibold text-dark " href="index.html" id="offcanvasNavbarLabel">⚉ Todd Dunn</a>
       <span class="small d-block d-md-inline-block">-- Senior UI Designer</span>
     </div>
     <div class="col text-end">
@@ -27,7 +27,7 @@
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header justify-content-end">
-            <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br />
+            <!-- <h5 class="small fw-semibold" id="offcanvasNavbarLab el">&#9856; Todd Dunn<br>
               <span class="small d-block d-md-inline-block">-- Senior UI Designer</span></h5> -->
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -109,7 +109,7 @@
     </div>
 
   <!-- Recent Work Chapter -->
-  <section class="recent-work">
+  <div class="recent-work">
     <div class="container-lg">
       <div class="row">
         <div class="col-12">
@@ -128,12 +128,12 @@
       </div>
 
     </div>
-  </section>
+  </div>
 
 
 
   <!-- Portfolio Overview Section -->
-  <section class="portfolio">
+  <div class="portfolio">
 
     <div class="container-lg">
       <div class="row">
@@ -148,10 +148,10 @@
       <div class="row section-spacing">
         <div class="col-12 col-sm-6 ms-auto">
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">The Brand:</h3>
-          <p><strong>Pajamagram</strong><br />
-            A pajama and loungewear company that got it’s start as a gifting brand. From Christmas to Mother’s Day, the focus was on selling high quality presents.</p>
+          <p><strong>Pajamagram</strong><br>
+            A pajama and loungewear company that got it's start as a gifting brand. From Christmas to Mother's Day, the focus was on selling high quality presents.</p>
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Todd's Role:</h3>
-          <p>At this pivotal point in the lifespan of Pajamagram.com, Todd was the website’s sole UI developer. His responsibilities were driving initial research, proposing the project, conceptualization of the deliverables, and completion of website redesign.</p>
+          <p>At this pivotal point in the lifespan of Pajamagram.com, Todd was the website's sole UI developer. His responsibilities were driving initial research, proposing the project, conceptualization of the deliverables, and completion of website redesign.</p>
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">The Team:</h3>
           <p>Todd worked in collaboration with external development partners, in-house graphic designers, merchandisers
             and marketing teams.</p>
@@ -390,10 +390,10 @@
       </div>
     </div>
 
-  </section>
+  </div>
 
   <!-- Footer Container -->
-  <section class="footer text-white d-flex align-items-center position-relative">
+  <div class="footer text-white d-flex align-items-center position-relative">
     <div class="container-lg">
       <div class="row gy-5">
         <div class="col-12 col-sm-6">
@@ -430,7 +430,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
   
   <div class="toast-container text-bg-white position-fixed bottom-0 start-50 translate-middle-x mb-3">
     <div class="toast"  role="alert" aria-live="polite" aria-atomic="true">
