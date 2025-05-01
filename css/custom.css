@@ -121,7 +121,7 @@ ul.home-list--methodology li {
 .callout-half {
     max-width: 60%;
 }
-section.footer {
+div.footer {
     height: 100vh;
     background: var(--bs-gray-800);
 }
