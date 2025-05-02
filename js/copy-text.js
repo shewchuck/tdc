@@ -33,3 +33,14 @@ document.getElementById('copy-text-btn-top').onclick = function() {
 
   })
 }
+
+// main nav tweaks to close mobile on click
+document.querySelectorAll('#offcanvasNavbar .nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    const offcanvasEl = document.getElementById('offcanvasNavbar');
+    const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvasEl);
+    if (offcanvasInstance) {
+      offcanvasInstance.hide();
+    }
+  });
+});
