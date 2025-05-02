@@ -135,6 +135,8 @@ div.footer {
     }
     .offcanvas {
         --bs-offcanvas-width: 100%;
+        background: #f2f2f2;
+        background: linear-gradient(28deg, rgb(247 247 247) 0%, rgb(237 237 237) 44%, rgb(255 255 255) 100%);
     }
     .home-hero {
         height: 55vh;
