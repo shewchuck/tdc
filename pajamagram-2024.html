@@ -25,11 +25,12 @@
 <body>
 <!-- Main Navbar -->
 <nav class="navbar navbar-expand-lg py-3 bg-white fixed-top border-bottom">
+  <a class="visually-hidden-focusable position-fixed top-0 start-0 p-2 bg-white z-3" href="#content">Skip to main content</a>
   <div class="container-lg flex-row-reverse flex-lg-row">
 
-    <div class="col-9 col-md-6 text-end text-lg-start">
-      <a class="navbar-brand fw-semibold text-dark me-2" href="index.html" id="offcanvasNavbarLabel" title="Return to homepage">Todd Dunn</a>
-      <span class="small d-md-inline-block">Senior Web/UX Designer</span>
+    <div class="col-10 col-md-6 text-end text-lg-start">
+      <a class="navbar-brand text-dark me-2" href="index.html" id="offcanvasNavbarLabel" title="Return to homepage">Todd Dunn</a>
+      <span class="d-md-inline-block fw-normal">Senior Web/UX Designer</span>
     </div>
 
     <div class="col">
@@ -41,7 +42,6 @@
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
           
           <div class="offcanvas-header justify-content-start">
-            <!-- <h5 class="offcanvas-title">Menu</h5> -->
             <button type="button" class="btn-close py-3 px-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
  
@@ -49,18 +49,17 @@
             <div class="col-10 ms-auto ms-lg-2 col-md">
                 <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 text-start gap-4 gap-md-3 mt-5 mt-md-0">
                   <li class="nav-item">
-                    <a class="nav-link fw-semibold" href="index.html#work" title="Click to view Work">Work</a>
+                    <a class="nav-link" href="index.html#work" title="Click to view Work">Work</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-semibold" href="index.html#about" title="Click to view more information">About</a>
+                    <a class="nav-link" href="index.html#about" title="Click to view more information">About</a>
                   </li>
                 </ul>
             </div>
             <div class="col-10 ms-auto ms-lg-2 col-md">
               <ul class="navbar-nav justify-content-end flex-grow-1 mt-4 mt-lg-0 text-start">
                   <li class="nav-item d-flex align-items-baseline">
-                    <!-- <a class="nav-link fw-semibold text-dark" href="#">Contact</a> -->
-                    <span id="copy-text-top" class="fw-semibold text-dark me-2">toddunn@gmail.com</span>
+                    <span id="copy-text-top" class="text-dark me-2">toddunn@gmail.com</span>
                     <button id="copy-text-btn-top" class="btn btn-sm text-dark focus-ring" title="Click to copy email address" style="--bs-focus-ring-color: rgba(var(--bs-white-rgb), .5);">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-copy" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z"></path>
@@ -78,12 +77,12 @@
 
 
   <!-- Main Container -->
-  <div class="container-lg top">
+  <div class="container-lg top" id="content">
     <div class="row align-items-center">
       <div class="container-lg case-header">
         <div class="row mt-5">
-          <div class="col-12 col-sm-10 col-lg-7 my-5 my-sm-0">
-            <h1 class="small fw-semibold text-uppercase">2024 Commerce Cloud Migration to Shopify</h1>
+          <div class="col-12 col-sm-10 col-lg-7 my-5 my-sm-0 casestudy-heading--title">
+            <h1 class="text-uppercase">2024 Commerce Cloud Migration to Shopify</h1>
             <h2 class="heading-callout my-3 my-md-5">How the Right Shopify Theme Selection Transformed Functionality, Focus, and Flexibility</h2>
           </div>
         </div>
@@ -91,14 +90,14 @@
           <div class="col-12 col-sm-10 col-lg-6 offset-sm-2 offset-lg-6">
             <div class="row">
               <div class="col-12 col-sm-4">
-                <ul class="list-unstyled small">
-                  <li class="fw-bold">Job Title</li>
+                <ul class="list-unstyled">
+                  <li class="fw-semibold">Job Title</li>
                   <li>Senior Web/UX Designer</li>
                 </ul>
               </div>
               <div class="col-6 col-sm-4">
-                <ul class="list-unstyled small">
-                  <li class="fw-bold">Research</li>
+                <ul class="list-unstyled">
+                  <li class="fw-semibold">Research</li>
                   <li>Prototyping</li>
                   <li>User journey mapping</li>
                   <li>Competitive analysis</li>
@@ -106,8 +105,8 @@
                 </ul>
               </div>
               <div class="col-6 col-sm-4">
-                <ul class="list-unstyled small">
-                  <li class="fw-bold">Design & Production</li>
+                <ul class="list-unstyled">
+                  <li class="fw-semibold">Design & Production</li>
                   <li>Low fidelity wireframes</li>
                   <li>High fidelity prototypes</li>
                   <li>UI & UX Design</li>
@@ -159,7 +158,7 @@
         </div>
         <div class="col-12 col-sm-10 col-lg-6 offset-sm-2 offset-lg-6 case-header">
           <h3 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">The Brand</h3>
-          <p><strong>Pajamagram</strong><br>
+          <p><span class="fw-semibold">Pajamagram</span><br>
             A seasonal lifestyle and gifting brand known for its matching pajama sets. It is expanding into loungewear and lifestyle products.</p>
 
 
@@ -192,7 +191,7 @@
                 <li>Marketing support: The new framework needed to allow easy implementation of promotions, seasonal campaigns, and testing — without slowing teams down.</li>
           </ul>
 
-          <p class="fw-bold">Traffic Data Highlights:</p>
+          <p class="fw-semibold">Traffic Data Highlights:</p>
           <ul>
               <li>~75% of traffic during peak seasons came from mobile</li>
               <li>~80% of traffic during off-peak came from desktop</li>
@@ -234,7 +233,7 @@
           <h4 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Conceptualization</h4>
           <p>Todd selected a Shopify theme that prioritized speed, scalability, and accessibility. It became the foundation for a fully reimagined user experience.</p>
 
-          <p class="fw-bold">Key Touchpoints:</p>
+          <p class="fw-semibold">Key Touchpoints:</p>
           <ul>
                 <li>Homepage</li>
                 <li>Main navigation</li>
@@ -272,24 +271,24 @@
           <h4 class="h6 fw-semibold text-uppercase mt-5 pb-2 border-bottom">Brand Redesign Delivery: </h4>
           <p>With the new Shopify theme implemented, Pajamagram's site underwent a full transformation:</p>
           <ul>
-                <li><strong>Navigation</strong> was simplified, product discoverability improved, and key landing pages were optimized for intent</li>
-                <li><strong>Mobile UX</strong> was standardized and refined, with clearer paths to purchase</li>
-                <li><strong>Promotional flexibility</strong> increased, allowing marketers to easily launch and adjust seasonal content</li>
-                <li><strong>Maintenance and updates</strong> became significantly easier — reducing reliance on developers and increasing speed to market</li>
+                <li><span class="fw-semibold">Navigation</span> was simplified, product discoverability improved, and key landing pages were optimized for intent</li>
+                <li><span class="fw-semibold">Mobile UX</span> was standardized and refined, with clearer paths to purchase</li>
+                <li><span class="fw-semibold">Promotional flexibility</span> increased, allowing marketers to easily launch and adjust seasonal content</li>
+                <li><span class="fw-semibold">Maintenance and updates</span> became significantly easier — reducing reliance on developers and increasing speed to market</li>
           </ul>
 
           <!-- <div class="row my-5">
             <div class="col-6">
-              <h5 class="small fw-bold">Mobile Traffic</h5>
+              <h5 class="small fw-semibold">Mobile Traffic</h5>
               <p class="display-5">+ 35%</p>
             </div>
             <div class="col-6">
-              <h5 class="small fw-bold">Conversion Rates</h5>
+              <h5 class="small fw-semibold">Conversion Rates</h5>
               <p class="display-5">+ 20%</p>
             </div>
           </div> -->
 
-          <h3 class="h5 mt-5 pb-2">The Result:</h3>
+          <h3 class="h5 mt-5 pb-2 fw-semibold">The Result:</h3>
           <p class="fs-6 col-lg-8">The right platform doesn't just support your brand — it sharpens your focus</p>
           <p>While early in its rollout, the new Shopify-powered experience has already delivered measurable results:</p>
           <ul>
@@ -316,12 +315,12 @@
     </div>
   </div>
 
-  <!-- Footer Container -->
+<!-- Footer Container -->
   <div class="footer text-white d-flex align-items-center position-relative">
     <div class="container-lg">
       <div class="row gy-5">
         <div class="col-12 col-sm-6">
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled">
             <li class="fw-semibold">Contact:</li>
             <li class="d-flex align-items-baseline">
               <span id="copy-text" class="me-2">toddunn@gmail.com</span>
@@ -334,20 +333,13 @@
           </ul>
         </div>
         <div class="col-12 col-sm-3">
-          <ul class="list-unstyled small">
-            <!-- <li>
-              <a href="#" class="icon-link icon-link-hover link-light" title="Click to view my resume (Adobe PDF file format)">Download resume (PDF)
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v3.999h.791v-1.342h.803q.43 0 .732-.173.305-.175.463-.474a1.4 1.4 0 0 0 .161-.677q0-.375-.158-.677a1.2 1.2 0 0 0-.46-.477q-.3-.18-.732-.179m.545 1.333a.8.8 0 0 1-.085.38.57.57 0 0 1-.238.241.8.8 0 0 1-.375.082H.788V12.48h.66q.327 0 .512.181.185.183.185.522m1.217-1.333v3.999h1.46q.602 0 .998-.237a1.45 1.45 0 0 0 .595-.689q.196-.45.196-1.084 0-.63-.196-1.075a1.43 1.43 0 0 0-.589-.68q-.396-.234-1.005-.234zm.791.645h.563q.371 0 .609.152a.9.9 0 0 1 .354.454q.118.302.118.753a2.3 2.3 0 0 1-.068.592 1.1 1.1 0 0 1-.196.422.8.8 0 0 1-.334.252 1.3 1.3 0 0 1-.483.082h-.563zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638z"/>
-                </svg>
-              </a>
-            </li> -->
+          <ul class="list-unstyled">
             <li><a href="https://www.linkedin.com/in/todd-dunn/" class="link-light link-offset-2" title="External link: click to view my LinkedIn profile">LinkedIn</a></li>
             <li><a href="https://www.instagram.com/toddunn5/" class="link-light link-offset-2" title="External link: click to view my Instagram profile">Instagram</a></li>
           </ul>
         </div>
         <div class="col-12 col-sm-3 text-sm-end">
-          <ul class="list-unstyled small text-white">
+          <ul class="list-unstyled text-white">
             <li>&copy; 2025 Todd Dunn</li>
           </ul>
         </div>

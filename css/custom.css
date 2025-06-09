@@ -1,12 +1,12 @@
 
 /* Font imports */
-/* @import url(https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap); */
+@import url(https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap);
 
 html {
     scroll-behavior: smooth;
   }
 body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: "Manrope", sans-serif;
+    font-family: "General Sans", sans-serif;
     font-weight: normal;
 }
 .offcanvas-backdrop {
@@ -18,12 +18,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: var(--bs-gray-700);
 }
-.navbar-brand, ul.navbar-nav {
-    font-size: .85em;
+.navbar-brand, ul.navbar-nav, .navbar, .casestudy-heading--title h1 {
+    font-size: 1em;
+    font-weight: 600;
 }
 
 p, ul, dt, dd {
-    font-size: .9em;
+    /* font-size: .9em; */
     line-height: 1.8;
     letter-spacing: -.01em;
 }
@@ -83,7 +84,10 @@ ul.home-list--methodology li {
     font-weight: 400;
     font-style: normal;
   }
-
+.home-casestudy--content h2 {
+    font-weight: 600;
+    font-size: 1em;
+}
 .heading-callout {
     /* font-family: "Cormorant", serif; */
     font-weight: 300;
@@ -111,7 +115,7 @@ ul.home-list--methodology li {
     margin-top: 10rem;
     margin-bottom: 6.25rem;
 }
-.home-header--case {
+.home-casestudy--container {
     margin-top: 2rem;
     margin-bottom: 8.25rem;
 }
@@ -130,6 +134,23 @@ div.footer {
     height: 100vh;
     background: var(--bs-gray-800);
 }
+
+p, a, li, dl, img, h1, h2, h3 {
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 15% cover 30%;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 @media (max-width: 576px) {
     p, ul, dt, dd {
