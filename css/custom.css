@@ -18,9 +18,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: var(--bs-gray-700);
 }
+/* Navbar edits */
+.navbar.navbar-expand-lg {
+    background: rgb(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+}
 .navbar-brand, ul.navbar-nav, .navbar, .casestudy-heading--title h1 {
-    font-size: 1em;
-    font-weight: 600;
+    font-size: .99em;
+    font-weight: 500;
 }
 
 p, ul, dt, dd {
@@ -55,10 +60,35 @@ ul.home-list--methodology li {
     border-radius: 6px;
 }
 
-
 .bg-off-white {
     background-color: rgb(245, 244, 238);
 }
+img {
+    border-radius: .75rem;;
+}
+.gradient-background {
+  background: linear-gradient(133deg,#fff2e5,#ffffff,#e3e3e3);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6rem;
+  position: static;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+    
 .navbar-toggler {
     border: none;
 }
@@ -157,8 +187,9 @@ p, a, li, dl, img, h1, h2, h3 {
         font-size: 1em;
     }
     .offcanvas {
+        height: 100vh;
         --bs-offcanvas-width: 100%;
-        background: #f2f2f2;
+        /* background: #f2f2f2; */
         background: linear-gradient(28deg, rgb(247 247 247) 0%, rgb(235 235 235) 49%, rgb(255 255 255) 100%);
     }
     .home-hero {
