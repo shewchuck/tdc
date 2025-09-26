@@ -67,7 +67,7 @@ img {
     border-radius: .75rem;;
 }
 .gradient-background {
-  background: linear-gradient(133deg,#fff2e5,#ffffff,#e3e3e3);
+  background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite;
   height: 100vh;
@@ -161,24 +161,11 @@ img {
     max-width: 60%;
 }
 div.footer {
-    height: 100vh;
-    background: var(--bs-gray-800);
+    height: 50vh;
+    background: var(--bs-white);
 }
 
-p, a, li, dl, img, h1, h2, h3 {
-    animation: fade linear both;
-    animation-timeline: view();
-    animation-range: entry 15% cover 30%;
-}
 
-@keyframes fade {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 
 
