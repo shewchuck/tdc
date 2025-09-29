@@ -70,7 +70,7 @@ img {
   background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite;
-  height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   margin-bottom: 6rem;
@@ -99,7 +99,6 @@ img {
     max-width: 1920px
 }
 
-
 .container-lg.top {
     margin-top: 5rem;
 }
@@ -114,7 +113,7 @@ img {
     font-weight: 400;
     font-style: normal;
   }
-.home-casestudy--content h2 {
+.home-casestudy--content h3 {
     font-weight: 600;
     font-size: 1em;
 }
