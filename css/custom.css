@@ -9,6 +9,9 @@ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: "General Sans", sans-serif;
     font-weight: normal;
 }
+body {
+    font-size: .95rem;
+}
 .offcanvas-backdrop {
     display: none!important;
 }
@@ -66,13 +69,14 @@ ul.home-list--methodology li {
 img {
     border-radius: .75rem;;
 }
-.gradient-background {
-  background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
+.mast {
+  /* background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
   background-size: 180% 180%;
-  animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 5s ease infinite; */
   min-height: 80vh;
   display: flex;
   align-items: center;
+  padding-top: 15vh; 
   margin-bottom: 6rem;
   position: static;
 }
@@ -134,7 +138,7 @@ img {
     letter-spacing: -.02em;
 }
 .ls-expanded {
-    letter-spacing: .2em;
+    letter-spacing: .05em;
 }
 
 
@@ -182,9 +186,9 @@ div.footer {
         height: 55vh;
         margin-top: 3rem;
     }
-    a.nav-link, span#copy-text-top {
+    /* a.nav-link, span#copy-text-top {
         font-size: 1.25em;
-    }
+    } */
 
     .case-header {
         margin: 4rem 0;
