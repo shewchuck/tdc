@@ -73,7 +73,7 @@ img {
   /* background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite; */
-  min-height: 80vh;
+  min-height: 65vh;
   display: flex;
   align-items: center;
   padding-top: 15vh; 
