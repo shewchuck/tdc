@@ -66,9 +66,9 @@ ul.home-list--methodology li {
 .bg-off-white {
     background-color: rgb(245, 244, 238);
 }
-img {
-    border-radius: .75rem;;
-}
+/* img {
+    border-radius: .75rem;
+} */
 .mast {
   /* background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
   background-size: 180% 180%;
