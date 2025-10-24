@@ -19,7 +19,7 @@ body {
     overflow: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: var(--bs-gray-700);
+    color: var(--bs-gray-600);
 }
 /* Navbar edits */
 .navbar.navbar-expand-lg {
@@ -27,14 +27,14 @@ body {
     backdrop-filter: blur(10px);
 }
 .navbar-brand, ul.navbar-nav, .navbar, .casestudy-heading--title h1 {
-    font-size: .99em;
+    font-size: 14px;
     font-weight: 500;
 }
 
 p, ul, dt, dd {
-    /* font-size: .9em; */
+    font-size: .875em;
     line-height: 1.8;
-    letter-spacing: -.01em;
+    /* letter-spacing: -.01em; */
 }
 ul ul {
     font-size:1em;
@@ -73,10 +73,10 @@ ul.home-list--methodology li {
   /* background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite; */
-  min-height: 65vh;
+  min-height: 76vh;
   display: flex;
   align-items: center;
-  padding-top: 15vh; 
+  padding-top: 16vh; 
   margin-bottom: 6rem;
   position: static;
 }
@@ -97,7 +97,7 @@ ul.home-list--methodology li {
     border: none;
 }
 .container-lg {
-    max-width: 1600px;
+    max-width: 1700px;
 }
 .container-xxl {
     max-width: 1920px
@@ -173,9 +173,9 @@ div.footer {
 
 
 @media (max-width: 576px) {
-    p, ul, dt, dd {
+    /* p, ul, dt, dd {
         font-size: 1em;
-    }
+    } */
     .offcanvas {
         height: 100vh;
         --bs-offcanvas-width: 100%;
