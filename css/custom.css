@@ -8,6 +8,7 @@ html {
 body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: "Instrument Sans", sans-serif;
     font-weight: normal;
+
 }
 /* body {
     font-size: .95rem;
@@ -19,22 +20,25 @@ body {
     overflow: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: var(--bs-gray-600);
+    color: var(--bs-gray-700);
 }
 /* Navbar edits */
-.navbar.navbar-expand-lg {
+.navbar {
     background: rgb(255, 255, 255, .5);
     backdrop-filter: blur(10px);
 }
-.navbar-brand, ul.navbar-nav, .navbar, .casestudy-heading--title h1 {
-    font-size: 14px;
-    font-weight: 500;
+.navbar-brand, .navbar, .nav-link {
+    font-size: 14.8px;
 }
 
+
 p, ul, dt, dd {
-    font-size: .875em;
+    font-size: .925em;
     line-height: 1.8;
     /* letter-spacing: -.01em; */
+}
+.small {
+    font-size: .925em;
 }
 ul ul {
     font-size:1em;
