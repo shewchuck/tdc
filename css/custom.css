@@ -24,8 +24,9 @@ body {
 }
 /* Navbar edits */
 .navbar {
-    background: rgb(255, 255, 255, .5);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.819) 0%, rgba(255, 255, 255, 0.589) 60%, rgb(255, 255, 255, 0) 100%);
+
 }
 .navbar-brand, .navbar, .nav-link {
     font-size: 14.8px;
@@ -168,8 +169,8 @@ ul.home-list--methodology li {
     max-width: 60%;
 }
 div.footer {
-    height: 50vh;
-    background: var(--bs-white);
+    /* height: 50vh;
+    background: var(--bs-white); */
 }
 
 
