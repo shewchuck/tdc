@@ -240,7 +240,7 @@ ul.home-list--methodology li {
 }
 
 /*page transitions*/
-body { background: #fff; }
+body { background: #faf9f7; }
 #page-content {
   opacity: 1;
   transition: opacity 250ms ease;
