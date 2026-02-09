@@ -8,8 +8,6 @@ html {
 body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: "Instrument Sans", sans-serif;
     font-weight: normal;
-    background-color: #f9f9f9;
-
 }
 /* body {
     font-size: .95rem;
@@ -169,10 +167,12 @@ ul.home-list--methodology li {
 .callout-half {
     max-width: 60%;
 }
-div.footer {
-    /* height: 50vh;
-    background: var(--bs-white); */
-}
+
+
+
+
+
+
 
 
 
@@ -237,4 +237,23 @@ div.footer {
         width: 100%;
         visibility: visible;
     }
+}
+
+/*page transitions*/
+body { background: #fff; }
+#page-content {
+  opacity: 1;
+  transition: opacity 250ms ease;
+}
+
+#page-content.is-fading-out {
+  opacity: 0;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #page-content { transition: none !important; }
+}
+main#page-content.is-fading-out {
+  opacity: 0 !important;
 }
