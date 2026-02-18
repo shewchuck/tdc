@@ -16,6 +16,7 @@ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     display: none!important;
 }
 body {
+    position: relative;
     overflow: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -74,10 +75,6 @@ ul.home-list--methodology li {
     border-radius: .75rem;
 } */
 .mast {
-  /* background: linear-gradient(133deg,#efefef,#ffffff,#e3e3e3);
-  background-size: 180% 180%;
-  animation: gradient-animation 5s ease infinite;
-  min-height: 76vh; */
   display: flex;
   align-items: center;
   padding-top: 34vh; 
@@ -198,9 +195,6 @@ ul.home-list--methodology li {
     .nav-link {
         position: relative;
     }
-    /* .navbar-brand, a.nav-link {
-        font-size: .85em;
-    } */
     .nav-link::before {
         content: "";
         position: absolute;
