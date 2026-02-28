@@ -94,7 +94,8 @@ ul.home-list--methodology li {
 }
 
 .container-lg.top {
-    margin-top: 5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 .hero-spacer {
     min-height: 30vh;
