@@ -124,7 +124,11 @@ ul.home-list--methodology li {
     /* font-family: Arial, Helvetica, sans-serif; */
     font-size: .85em;
 }
-
+.case-facets {
+    font-size: .9em;
+    margin: .5rem 0 1rem 0;
+    color: var(--bs-gray-600);
+}
 .ls-condensed {
     letter-spacing: -.02em;
 }
