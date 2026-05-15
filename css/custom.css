@@ -21,6 +21,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: var(--bs-gray-700);
+    background: #fff;
 }
 /* Navbar edits */
 .navbar {
@@ -220,7 +221,6 @@ ul.home-list--methodology li {
 }
 
 /*page transitions*/
-body { background: #faf9f7; }
 #page-content {
   opacity: 1;
   transition: opacity 250ms ease;
