@@ -1,12 +1,19 @@
 
 /* Font imports */
 @import url(https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap);
+@font-face {
+  font-family: 'Ppneuemontreal';
+  src: url('/fonts/PPNeueMontreal-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 html {
     scroll-behavior: smooth;
   }
 body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: "General Sans", sans-serif;
+    font-family: "Inter Tight", sans-serif;
     font-weight: normal;
 }
 /* body {
@@ -147,6 +154,10 @@ ul.home-list--methodology li {
 .home-casestudy--container {
     margin-top: 2rem;
     margin-bottom: 8.25rem;
+}
+.home-casestudy--padding {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 .case-header {
     margin-top: 12.25rem;
