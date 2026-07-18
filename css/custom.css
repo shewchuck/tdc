@@ -27,7 +27,7 @@ body {
     overflow: visible;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: var(--bs-gray-800);
+    color: var(--bs-black);
     /* background: rgb(250 250 250); */
 }
 /* Navbar edits */
@@ -86,10 +86,8 @@ ul.home-list--methodology li {
 } */
 .mast {
   display: flex;
-  align-items: center;
-  padding-top: 34vh; 
-  margin-bottom: 6rem;
-  position: static;
+  align-items: end;
+  height: calc(80vh - 120px)
 }
 
     
@@ -103,7 +101,7 @@ ul.home-list--methodology li {
     max-width: 1920px
 }
 
-.container-lg.top {
+.container-fluid.top {
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
